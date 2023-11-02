@@ -2,7 +2,7 @@ import LocalizedStrings from 'react-localization';
 
 let strings = new LocalizedStrings({
         en: {
-            "title": "Cromberg - personal finance accounting system",
+            "title": "faughnan - personal finance accounting system",
             "income": "Income",
             "balance": "Balance",
             "settings": "Settings",
@@ -44,7 +44,7 @@ let strings = new LocalizedStrings({
             "currency": "Currency"
         },
         ru: {
-            "title": "Cromberg - система личного учёта",
+            "title": "faughnan - система личного учёта",
             "income": "Доход",
             "balance": "Баланс",
             "settings": "Настройки",
@@ -86,7 +86,7 @@ let strings = new LocalizedStrings({
             "currency": "Валюта"
         },
         fr: {
-            "title": "Cromberg - système de comptabilité financière personnelle",
+            "title": "faughnan - système de comptabilité financière personnelle",
             "income": "Revenu",
             "balance": "Balance",
             "settings": "Paramètres",

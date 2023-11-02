@@ -1,9 +1,9 @@
 <?php
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-use Cromberg\Functions;
-Use Cromberg\TemplateHelper;
-Use Cromberg\Template;
+use faughnan\Functions;
+Use faughnan\TemplateHelper;
+Use faughnan\Template;
 
 class Page404 extends Action
 {

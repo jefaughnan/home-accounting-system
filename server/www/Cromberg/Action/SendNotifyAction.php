@@ -1,11 +1,11 @@
 <?php
 
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-Use Cromberg\Config;
-use Cromberg\Lang;
-Use Cromberg\TemplateHelper;
-Use Cromberg\Template;
+Use faughnan\Config;
+use faughnan\Lang;
+Use faughnan\TemplateHelper;
+Use faughnan\Template;
 
 class SendNotifyAction extends Action
 {
@@ -35,7 +35,7 @@ class SendNotifyAction extends Action
         $message = TemplateHelper::replaceKey('cause', Lang::getPrepared('cause', $lang, [Config::$domain_link, $unsubscribeLink]), $message);
         $headers = 'From: noreply@' . Config::$domain . "\r\n" .
             'Reply-To: noreply@' . Config::$domain . "\r\n" .
-            'X-Mailer: Cromberg mailer' . "\r\n" .
+            'X-Mailer: faughnan mailer' . "\r\n" .
             'List-Unsubscribe: <' . $unsubscribeLink . '>' . "\r\n" .
             'Content-type: text/html; charset=utf-8' . "\r\n";
 

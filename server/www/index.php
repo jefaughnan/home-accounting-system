@@ -1,7 +1,7 @@
 <?php
 
-use Cromberg\Action;
-use Cromberg\Urls;
+use faughnan\Action;
+use faughnan\Urls;
 
 spl_autoload_register(function ($name) {
     $fileParts = explode('\\', $name);

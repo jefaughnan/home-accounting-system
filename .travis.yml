@@ -25,8 +25,8 @@ deploy:
   api_key: $GH_TOKEN
   file_glob: true
   file:
-    - "dist/Cromberg-*-x86_64.AppImage"
-    - "dist/Cromberg_*_amd64.deb"
-    - "dist/Cromberg-*.dmg"
+    - "dist/faughnan-*-x86_64.AppImage"
+    - "dist/faughnan_*_amd64.deb"
+    - "dist/faughnan-*.dmg"
   on:
     tags: true

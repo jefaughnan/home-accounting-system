@@ -1,13 +1,13 @@
 {
-  "name": "cromberg",
-  "productName": "Cromberg",
+  "name": "faughnan",
+  "productName": "Faughnan",
   "description": "Personal accounting system",
   "homepage": "./",
   "version": "1.4.0",
   "main": "public/electron.js",
   "author": {
     "name": "z-17",
-    "email": "admin@blweb.ru"
+    "email": "joe_faughnan@yahoo.com"
   },
   "repository": {
     "type": "git",
@@ -68,7 +68,7 @@
     ]
   },
   "build": {
-    "appId": "ru.blweb.cromberg",
+    "appId": "ru.blweb.faughnan",
     "buildVersion": "1.2.3",
     "win": {
       "target": "portable",

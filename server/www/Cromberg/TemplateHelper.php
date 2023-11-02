@@ -1,6 +1,6 @@
 <?php
 
-namespace Cromberg;
+namespace faughnan;
 
 class TemplateHelper
 {

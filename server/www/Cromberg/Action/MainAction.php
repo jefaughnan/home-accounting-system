@@ -1,8 +1,8 @@
 <?php
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-Use Cromberg\TemplateHelper;
-Use Cromberg\Template;
+Use faughnan\TemplateHelper;
+Use faughnan\Template;
 
 class MainAction extends Action
 {
@@ -13,6 +13,6 @@ class MainAction extends Action
 
     public function process()
     {
-        echo TemplateHelper::getPageTemplate(Template::PAGE_INDEX, 'Cromberg');
+        echo TemplateHelper::getPageTemplate(Template::PAGE_INDEX, 'faughnan');
     }
 }

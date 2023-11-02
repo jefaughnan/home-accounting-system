@@ -1,6 +1,6 @@
 <?php
 
-namespace Cromberg;
+namespace faughnan;
 
 class Lang
 {
@@ -36,21 +36,21 @@ class Lang
     {
         return [
             'subject' => [
-                'en' => 'Notification from Cromberg',
-                'ru' => 'Напоминание от Cromberg'
+                'en' => 'Notification from faughnan',
+                'ru' => 'Напоминание от faughnan'
             ],
             'main-caption' => [
                 'en' => 'Notification',
                 'ru' => 'Заголовок',
             ],
             'text' => [
-                'en' => 'It\'s already last day of the month, it\'s time to fill the current balance data in the Cromberg',
-                'ru' => ' Уже конец месяца, пришло время заполнить текущий баланс в системе Cromberg.',
+                'en' => 'It\'s already last day of the month, it\'s time to fill the current balance data in the faughnan',
+                'ru' => ' Уже конец месяца, пришло время заполнить текущий баланс в системе faughnan.',
             ],
             'cause' => [
-                'en' => 'You have received this email because you use <a href="[[$1]]" title="Cromberg - home accounting system">Cromberg</a> app and subscribed for monthly notifications. To unsubscribe, just change settings in the app.
+                'en' => 'You have received this email because you use <a href="[[$1]]" title="faughnan - home accounting system">faughnan</a> app and subscribed for monthly notifications. To unsubscribe, just change settings in the app.
             If you don\'t understand what is it, you can unsubscribe from letters by clicking on <a href="[[$2]]">this</a> link.',
-                'ru' => 'Вы получили это письмо так как пользуетесь <a href="[[$1]]" title="Cromberg - домашняя система учёта финансов">Cromberg</a> и подписались на ежемесячные уведомления. Чтобы отписаться, измените соответствующие настройки в приложении.
+                'ru' => 'Вы получили это письмо так как пользуетесь <a href="[[$1]]" title="faughnan - домашняя система учёта финансов">faughnan</a> и подписались на ежемесячные уведомления. Чтобы отписаться, измените соответствующие настройки в приложении.
             Если вы не понимаете о чём речь, отпишитесь от сообщений нажав на эту <a href="[[$2]]">ссылку</a>.',
             ],
         ];

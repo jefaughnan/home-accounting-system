@@ -1,8 +1,8 @@
 <?php
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-use Cromberg\Currency\Currency;
-use Cromberg\Currency\CurrencyRatesFetcher;
+use faughnan\Currency\Currency;
+use faughnan\Currency\CurrencyRatesFetcher;
 
 class CurrenciesUpdateByDate extends Action {
     private $time = null;

@@ -1,5 +1,5 @@
 <?php
-namespace Cromberg\Models;
+namespace faughnan\Models;
 
 class CurrencyRate {
 	public $id;

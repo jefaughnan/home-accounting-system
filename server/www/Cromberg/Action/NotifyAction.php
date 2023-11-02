@@ -1,7 +1,7 @@
 <?php
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-use Cromberg\Config;
+use faughnan\Config;
 
 class NotifyAction extends Action
 {

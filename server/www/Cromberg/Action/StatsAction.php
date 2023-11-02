@@ -1,12 +1,12 @@
 <?php
 
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-use Cromberg\Config;
-use Cromberg\Functions;
-use Cromberg\Template;
-use Cromberg\TemplateHelper;
-use Cromberg\Urls;
+use faughnan\Config;
+use faughnan\Functions;
+use faughnan\Template;
+use faughnan\TemplateHelper;
+use faughnan\Urls;
 use DateInterval;
 use DatePeriod;
 use DateTime;
@@ -48,7 +48,7 @@ class StatsAction extends Action
         $data_uniques_launches_month = $this->db->getUniqueLaunchStatsByMonth();
         $result_month = $this->processStats($data_launches_month, $data_uniques_launches_month, $start, $end, 'month');
 
-        $page = TemplateHelper::getPageTemplate(Template::PAGE_STATS, 'Cromberg');
+        $page = TemplateHelper::getPageTemplate(Template::PAGE_STATS, 'faughnan');
         $page = TemplateHelper::replaceKey('data-day', json_encode($result_day), $page);
         $page = TemplateHelper::replaceKey('data-month', json_encode($result_month), $page);
         echo $page;

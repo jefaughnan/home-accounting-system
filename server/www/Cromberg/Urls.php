@@ -1,5 +1,5 @@
 <?php
-namespace Cromberg;
+namespace faughnan;
 
 class Urls {
     const MAIN = '';

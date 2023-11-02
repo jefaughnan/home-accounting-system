@@ -1,10 +1,10 @@
 <?php
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-Use Cromberg\Base;
-use Cromberg\Functions;
-Use Cromberg\TemplateHelper;
-Use Cromberg\Template;
+Use faughnan\Base;
+use faughnan\Functions;
+Use faughnan\TemplateHelper;
+Use faughnan\Template;
 
 abstract class Action
 {

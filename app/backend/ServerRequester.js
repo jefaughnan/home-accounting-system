@@ -3,7 +3,7 @@
 const http = require('http');
 const moment = require('moment');
 
-const host = 'cromberg.blweb.ru';
+const host = 'faughnan.blweb.ru';
 
 function ServerRequester(isDev) {
     this.isDev = isDev;

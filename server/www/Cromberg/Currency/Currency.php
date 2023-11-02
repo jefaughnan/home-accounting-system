@@ -1,8 +1,8 @@
 <?php
 
-namespace Cromberg\Currency;
+namespace faughnan\Currency;
 
-use Cromberg\Models\CurrencyRate;
+use faughnan\Models\CurrencyRate;
 
 class Currency {
     const USD = 'USD';

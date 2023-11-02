@@ -1,8 +1,8 @@
 <?php
-Namespace Cromberg\Action;
+Namespace faughnan\Action;
 
-use Cromberg\Functions;
-use Cromberg\Lang;
+use faughnan\Functions;
+use faughnan\Lang;
 
 class SettingsAction extends Action
 {

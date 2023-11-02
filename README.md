@@ -1,4 +1,4 @@
-# Cromberg - personal finance accounting system
+# faughnan - personal finance accounting system
 
 ## Features
 
@@ -16,7 +16,7 @@
 
 ### Other
 
-* App's database by default storing in `%APPDATA%/Roaming/Cromberg/db/database` for Windows and similarly for others OS. You can change it in settings.
+* App's database by default storing in `%APPDATA%/Roaming/faughnan/db/database` for Windows and similarly for others OS. You can change it in settings.
 * Creating backup of database on every launch app, but not more ofter once a day. Backup folder you can set in settings.
 * Email reminder every last day of month to fill balance data. Subscription and unsubscribing of notification by setting in app.
 * Multi-language support: English, Russian and French

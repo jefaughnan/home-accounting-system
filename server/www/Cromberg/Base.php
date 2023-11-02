@@ -1,8 +1,8 @@
 <?php
 
-namespace Cromberg;
+namespace faughnan;
 use PDO;
-use Cromberg\Models\CurrencyRate;
+use faughnan\Models\CurrencyRate;
 
 class Base
 {
